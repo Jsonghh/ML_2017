@@ -22,7 +22,7 @@ for i in range(18):
     data.append([])
 
 n_row = 0
-text = open('/Users/jhe18/Desktop/ML_NTU_2017Fall/HW1-Predicting PM2.5/train.csv', 'r', encoding='big5')
+text = open('/Users/****/Desktop/ML_NTU_2017Fall/HW1-Predicting PM2.5/train.csv', 'r', encoding='big5')
 row = csv.reader(text, delimiter=",")
 print(row)
 for r in row:
@@ -90,15 +90,15 @@ for i in range(repeat):
 
 
 #   Save model
-np.save('/Users/jhe18/Desktop/ML_NTU_2017Fall/HW1-Predicting PM2.5/model.npy', w)
+np.save('/Users/****/Desktop/ML_NTU_2017Fall/HW1-Predicting PM2.5/model.npy', w)
 #   Read model
-w = np.load('/Users/jhe18/Desktop/ML_NTU_2017Fall/HW1-Predicting PM2.5/model.npy')
+w = np.load('/Users/****/Desktop/ML_NTU_2017Fall/HW1-Predicting PM2.5/model.npy')
 
 
 #   READ TEST DATA
 test_x = []
 n_row = 0
-text = open('/Users/jhe18/Desktop/ML_NTU_2017Fall/HW1-Predicting PM2.5/test.csv', 'r')
+text = open('/Users/****/Desktop/ML_NTU_2017Fall/HW1-Predicting PM2.5/test.csv', 'r')
 row = csv.reader(text, delimiter=",")
 
 for r in row:
@@ -131,7 +131,7 @@ for i in range(len(test_x)):
     a = np.dot(w, test_x[i])
     ans[i].append(a)
 
-filename = "/Users/jhe18/Desktop/ML_NTU_2017Fall/HW1-Predicting PM2.5/sampleSubmission.csv"
+filename = "/Users/****/Desktop/ML_NTU_2017Fall/HW1-Predicting PM2.5/sampleSubmission.csv"
 text = open(filename, "w+")
 s = csv.writer(text, delimiter=',', lineterminator='\n')
 s.writerow(["id", "value"])
