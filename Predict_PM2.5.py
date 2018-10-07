@@ -1,3 +1,11 @@
+'''
+Given information of 18 polluntant(factor) in the air over 12*20 days,
+24 hours per day, how to predict the PM2.5 value based on the values of 18
+factors in the previous 9 hours.
+'''
+
+
+
 import csv
 
 import data as data
