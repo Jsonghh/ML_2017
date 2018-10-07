@@ -7,13 +7,13 @@ factors in the previous 9 hours.
 
 
 import csv
-
 import data as data
 import numpy as np
 from numpy.linalg import inv
 import random
 import math
 import sys
+
 
 #   READ DATA
 data = []
