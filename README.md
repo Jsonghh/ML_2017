@@ -9,4 +9,4 @@ Basic Data Manipulation Operations
 
 Assignment1: [Predict PM2.5](https://github.com/Jsonghh/ML_2017/tree/master/Project_1_Predict_PM2.5)(inference, linear regression)
 
-Assignment2: [Win_or_Lose]() (classification, logistic regression)
+Assignment2: [Win or Lose]() (classification, logistic regression)
